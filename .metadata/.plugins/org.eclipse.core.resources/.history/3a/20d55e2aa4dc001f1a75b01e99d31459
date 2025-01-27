@@ -19,7 +19,7 @@ public class Principal {
 		System.out.println(listado);
 		
 		
-		System.out.println("HOLA");
+		
 	}
 
 }
