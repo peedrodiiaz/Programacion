@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract local variable &apos;nombre2&apos; from expression &apos;nombre&apos;&#x0D;&#x0A;- Original project: &apos;ExamT4PedroDiaz&apos;&#x0D;&#x0A;- Variable name: &apos;nombre2&apos;&#x0D;&#x0A;- Destination method: &apos;ejercicio.Taquilla.FindByName(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;nombre&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;nombre2&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;ejercicio{Taquilla.java" name="nombre2" replace="true" replaceAllInThisFile="false" selection="1948 6" stamp="1737636619165" varType="false" version="1.0"/>
-</session>
