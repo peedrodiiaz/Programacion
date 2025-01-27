@@ -4353,3 +4353,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.codetogether.hq.eclipse 1 0 2025-01-27 12:48:08.987
 !MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 14:16:16.186
+!MESSAGE ex-0000000139 Cookie rejected [_cfuvid="N23WZ9N9AX_xy5M.eQ.VbQ3xyWSh1lTtd2.AHSdYFdA-1737983775440-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 14:16:16.481
+!MESSAGE ex-0000000142 Cookie rejected [_cfuvid="2QKfMOIBAOqvGQZVbOQh6aK4mWHy7eUlsEsNSAt2Hww-1737983775734-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
