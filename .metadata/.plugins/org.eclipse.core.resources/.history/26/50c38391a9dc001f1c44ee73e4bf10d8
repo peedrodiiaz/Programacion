@@ -19,21 +19,17 @@ public class Principal {
 		listado.add(p2);
 		listado.add(p3);
 		listado.add(p4);
-//		System.out.println(listado);
-//		System.out.println("Tamaño: "+listado.size());
+		System.out.println(listado);
+		System.out.println("Tamaño: "+listado.size());
 	
 		listado.add(p1);
-//		System.out.println("Tamaño nuevo "+listado.size());
+		System.out.println("Tamaño nuevo "+listado.size());
 		
-//		System.out.println(listado.remove(p3));
-//		System.out.println(listado.remove(2));
-//		System.out.println("Tamaño nuevo "+listado.size());
+		System.out.println(listado.remove(p3));
+		System.out.println(listado.remove(2));
+		System.out.println("Tamaño nuevo "+listado.size());
+
 		
-	
-		
-		for (int i = 0; i < listado.size(); i++) {
-			System.out.println(listado.get(i));
-		}
 		
 		
 	}

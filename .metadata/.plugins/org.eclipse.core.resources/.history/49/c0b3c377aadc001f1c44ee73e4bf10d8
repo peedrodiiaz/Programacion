@@ -29,10 +29,10 @@ public class Principal {
 //		System.out.println(listado.remove(2));
 //		System.out.println("Tamaño nuevo "+listado.size());
 		
-	
+		listado.add(34, p4);
 		
 		for (int i = 0; i < listado.size(); i++) {
-			System.out.println(listado.get(i));
+			System.out.println(listado);
 		}
 		
 		
