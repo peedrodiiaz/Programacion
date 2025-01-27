@@ -38,8 +38,22 @@ public class gestionNotas {
 	}
 	
 	public void borraNota(int index) {
-		
+		if (lista.isEmpty()) {
+			System.out.println("La lista está vacía");
+		}else {
+			lista.remove(index);
+		}
+	
 	}
+	public void devolverNotas() {
+
+			 for (int i = 0; i < lista.size(); i++) {
+		            System.out.println((i ) + ". " + lista.get(i));
+		        }
+			
+	 	
+	}
+	
 	
 	
 	
