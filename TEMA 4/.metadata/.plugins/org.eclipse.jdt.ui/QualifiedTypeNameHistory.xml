@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ejercicio01.Ordenador"/>
+    <fullyQualifiedTypeName name="ejercicio01.Sobremesa"/>
+    <fullyQualifiedTypeName name="ejercicio01.Portatil"/>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="ejercicio04.Electronica"/>
+    <fullyQualifiedTypeName name="ejercicio04.Venta"/>
+    <fullyQualifiedTypeName name="ejercicio04.LineadeVenta"/>
+    <fullyQualifiedTypeName name="java.util.IllegalFormatCodePointException"/>
+    <fullyQualifiedTypeName name="ejercicio04.Producto"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ejercicio04.Alimentacion"/>
+</qualifiedTypeNameHistroy>

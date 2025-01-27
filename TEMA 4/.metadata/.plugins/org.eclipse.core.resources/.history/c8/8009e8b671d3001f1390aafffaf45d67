@@ -1,0 +1,29 @@
+package ejercicio04;
+
+import java.util.Arrays;
+
+public class Venta {
+	private Venta [] lineaVentas;
+	
+	public Venta[] getLineaVentas() {
+		return lineaVentas;
+	}
+	public void setLineaVentas(Venta[] lineaVentas) {
+		this.lineaVentas = lineaVentas;
+	}
+
+	public Venta(Venta[] lineaVentas) {
+		super();
+		this.lineaVentas = lineaVentas;
+	}
+
+	@Override
+	public String toString() {
+		return "Venta [lineaVentas=" + Arrays.toString(lineaVentas) + "]";
+	}
+
+
+
+
+
+}

@@ -1,0 +1,57 @@
+package ejercicio04;
+
+import java.util.Arrays;
+
+public class Venta {
+	
+	private LineadeVenta [] Lista;
+
+	public LineadeVenta[] getLista() {
+		return Lista;
+	}
+
+	public void setLista(LineadeVenta[] lista) {
+		Lista = lista;
+	}
+
+	public Venta(LineadeVenta[] lista) {
+		super();
+		Lista = lista;
+	}
+
+	@Override
+	public String toString() {
+		return "Venta [Lista=" + Arrays.toString(Lista) + "]";
+	}
+	
+	public double calcularTotal(int iva, int descuento, int numdiasProducto) {
+		double total=0;
+		for (int i = 0; i < Lista.length; i++) {
+//			total+=Lista[i].getP().calcularPVP(iva, descuento, numdiasProducto)*Lista[i].getNumProductos();
+			total+=Lista[i].calcularSubTotal(iva, descuento, numdiasProducto);
+		}
+		return total;
+		
+	}
+	
+	public void listarLineas() {
+		
+		for (int i = 0; i < Lista.length; i++) {
+			if ( Lista[i].getP() instanceof Alimentacion) {
+				System.out.println("Producto "+(i+1)+" "+Lista[i].getP());
+				((Alimentacion)Lista[i].getP()).mostrarAviso(2);
+				System.out.println();
+			}else {
+				System.out.println("Producto "+(i+1)+" "+Lista[i].getP());
+				System.out.println();
+			}
+		}
+		
+	}
+	
+	
+	
+
+
+
+}

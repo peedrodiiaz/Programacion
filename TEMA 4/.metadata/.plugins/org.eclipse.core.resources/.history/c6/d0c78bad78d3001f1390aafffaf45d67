@@ -1,0 +1,39 @@
+package ejercicio04;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Producto p =new Producto(2.4,"Sacapuntas",352323);
+		Producto p1 = new Alimentacion(1.5, "Manzanas", 42234, true, 5);
+		Producto p2 = new Alimentacion(2.3,  "Peras", 2423,true, 1);
+		Producto p3 = new Electronica(234, "Ordenador", 21422, true);
+		LineadeVenta lv= new LineadeVenta(p1, 3);
+		LineadeVenta lv2= new LineadeVenta(p2, 3);
+		LineadeVenta lv3 = new LineadeVenta(p, 1);
+		LineadeVenta lv4 = new LineadeVenta(p3, 2);
+		
+		LineadeVenta [] lista = {lv,lv2,lv3,lv4};
+		
+		Venta v = new Venta (lista);
+		
+		
+		v.listarLineas();
+		
+		
+		System.out.println("----------- TIENDA BOSCO ------------");
+		System.out.println("15/01/25                         15:00");
+		
+		
+		for (int i = 0; i < lista.length; i++) {
+			System.out.println(lista[i].getP().getNombre());
+		}
+		
+	
+	}
+	
+
+}
+	

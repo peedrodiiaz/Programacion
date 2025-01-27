@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\Documentos y datos\1. Grado Superior\Programación\TEMA 4\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+399259832.index
+63069888.index
+3433219009.index

@@ -1,0 +1,9 @@
+package ejercicio04;
+
+public class Alimentacion extends Producto {
+
+	private boolean refrigerado;
+	private int diasCaducidad;
+	
+	
+}

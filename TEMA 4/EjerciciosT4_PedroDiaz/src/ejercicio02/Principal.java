@@ -1,0 +1,17 @@
+package ejercicio02;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Tarjetadevisita t = new Tarjetadevisita();
+		Carta c = new Carta();
+		
+		t.Mostrarencabezado();
+		c.Mostrarencabezado();
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package Ejercicio03;
+
+public class Operaciones {
+
+    private int numero;
+
+	public Operaciones(int numero) {
+    	this.numero=numero;
+	}
+
+	public  String esPositivoNegativo(int numero) {
+        if (numero >= 0) {
+            return "Positivo";
+        } else {
+            return "Negativo";
+        }
+    }
+
+    public  String esParImpar(int numero) {
+        if (numero % 2 == 0) {
+            return "Par";
+        } else {
+            return "Impar";
+        }
+    }
+}

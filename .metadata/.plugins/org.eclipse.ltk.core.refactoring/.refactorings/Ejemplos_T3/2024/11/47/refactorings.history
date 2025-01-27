@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ejemploStatic.Principal&apos; to &apos;Marciano&apos;&#x0D;&#x0A;- Original project: &apos;Ejemplos_T3&apos;&#x0D;&#x0A;- Original element: &apos;ejemploStatic.Principal&apos;&#x0D;&#x0A;- Renamed element: &apos;ejemploStatic.Marciano&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Principal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ejemploStatic{Principal.java[Principal" matchStrategy="1" name="Marciano" qualified="false" references="true" similarDeclarations="false" stamp="1731916445329" textual="false" version="1.0"/>
+</session>
