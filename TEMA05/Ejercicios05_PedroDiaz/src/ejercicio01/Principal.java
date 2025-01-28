@@ -19,17 +19,27 @@ public class Principal {
 		List<Nota> lista = new ArrayList<Nota>();
 		
 		gestionNotas gn = new gestionNotas(lista);
+		
 		gn.agregarNota(n3);
+		
 		gn.agregarNota(n2);
+		
 		gn.agregarNota(n1);
 	
 		System.out.println("Selecciona el indice de la nota para borrar");
+		
 		gn.devolverNotas();		
+		
 		indice=sc.nextInt();
+		
 		gn.borraNota(indice);
+		
 		System.out.println("El número de notas guardadas es ");
+	
 		gn.numDeNotas();
+		
 		gn.devolverNotas();
+		
 		System.out.println("Fin");
 		
 		}
