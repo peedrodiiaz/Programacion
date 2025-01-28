@@ -30,6 +30,7 @@ public class Principal {
 		System.out.println("El número de notas guardadas es ");
 		gn.numDeNotas();
 		gn.devolverNotas();
+		System.out.println("Fin");
 		
 		}
 
