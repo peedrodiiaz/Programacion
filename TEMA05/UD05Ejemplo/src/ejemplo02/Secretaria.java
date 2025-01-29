@@ -98,7 +98,7 @@ public class Secretaria {
 		for (Alumno alumno : listaAlumnos) {
 			suma+=alumno.getNotaMedia();
 		}
-		return suma;
+		return suma/listaAlumnos.size();
 	}
 	
 		
