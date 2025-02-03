@@ -10,12 +10,19 @@ public class Principal {
 		double resul=0.0;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Dime el denominador");
-		den=Integer.parseInt(sc.nextLine());
-		System.out.println("Dime el numerador");
-		num= Integer.parseInt(sc.nextLine());
-		resul=num/den;
-		System.out.println(resul);
+		
+		try {
+			System.out.println("Dime el denominador");
+			den=Integer.parseInt(sc.nextLine());
+			System.out.println("Dime el numerador");
+			num= Integer.parseInt(sc.nextLine());
+			resul=num/den;
+			System.out.println(resul);
+		} catch (ArithmeticException e) {
+			System.err.println("El denominador no es ese");
+		}
+		
+		
 		
 		
 		
