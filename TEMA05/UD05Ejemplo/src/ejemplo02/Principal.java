@@ -21,7 +21,7 @@ public class Principal {
 		Alumno a1 =  new Alumno("PEDRO", 9.5, "77935958Q");
 		Alumno a2 =  new Alumno("Javi", 7.25, "77954418C");
 		Alumno a3 = new Alumno("Ivan", 5.2, "164646064X");
-		Alumno a4;
+		
 		int op;
 		String nombre, Dni, dniTemp;
 		double notamedia;
@@ -77,6 +77,7 @@ public class Principal {
 					System.out.println("Indica la nueva nota media");
 					notamedia=Double.parseDouble(sc.next());
 					
+					
 					if (s.findbyDNIv2(dniTemp)<0) {
 						System.out.println("No encontrado");
 					}else {
@@ -97,11 +98,12 @@ public class Principal {
 					}
 					
 				default:
+					System.err.println("Opción no valida");
 					break;
 				}
 		} while (op!=0);
 		
-			System.out.println("Saliedndo");
+			System.out.println("Saliendo");
 		
 		
 //	
