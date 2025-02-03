@@ -9,9 +9,11 @@ public class Principal {
 		int num=8,den=0;
 		double resul=0.0;
 		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		try {
+			
 			System.out.println("Dime el denominador");
 			den=Integer.parseInt(sc.nextLine());
 			System.out.println("Dime el numerador");
